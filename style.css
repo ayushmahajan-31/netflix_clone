@@ -16,13 +16,11 @@ body {
   height: 70vh;
   position: relative;
 }
-@media screen and (max-width:950px)
-{
-  .main.box{
-    
+@media screen and (max-width: 950px) {
+  .main.box {
     width: 100%;
   }
-} 
+}
 .main.box {
   height: 70vh;
   width: 100%;
@@ -45,16 +43,15 @@ nav img {
   position: relative;
   z-index: 10;
   margin-top: 10px;
-  
 }
 nav button {
-    margin-top: 10px;
-    position: relative;
-    z-index: 10;
-    padding: 2px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 10;
+  padding: 2px;
 }
-.signin{
-    background-color: red;
+.signin {
+  background-color: red;
 }
 .hero {
   font-family: "Martel Sans", sans-serif;
@@ -84,52 +81,52 @@ nav button {
   font-size: 20px;
   text-align: center;
 }
-.hero > div{
-    display: flex;
-    gap: 3px;
+.hero > div {
+  display: flex;
+  gap: 3px;
 }
-.hero-buttons{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
-.btn{
-    padding: 3px 8px;
-    font-weight: 400;
-    background-color:rgba(11, 10, 10, 0.769) ;
-    border:1px solid white;
-    border-bottom: 4px;
-    cursor: pointer;
-    color:white;
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  background-color: rgba(11, 10, 10, 0.769);
+  border: 1px solid white;
+  border-bottom: 4px;
+  cursor: pointer;
+  color: white;
 }
-.red{
-    background-color: red;
-    color: #fff;
-    padding: 3px 24px;
-    font-size: 20px;
-    border-radius: 4px;
-    font-weight: 400;
+.red {
+  background-color: red;
+  color: #fff;
+  padding: 3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
 }
-.red-s{
-    background-color: red;
-    color: #fff;
+.red-s {
+  background-color: red;
+  color: #fff;
 }
-.main input{
-    padding:7px 101px 8px 14px;
-    font-size: 12px;
-    border-radius: 4px;
-    background-color: rgba(44, 36, 36, 0.8);
-    border:1px solid rgba(44, 36, 36, 0.4);
-    color: white;
-    font-weight: 300;
+.main input {
+  padding: 7px 101px 8px 14px;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: rgba(44, 36, 36, 0.8);
+  border: 1px solid rgba(44, 36, 36, 0.4);
+  color: white;
+  font-weight: 300;
 }
 .sepration {
   height: 5px;
   background-color: rgb(46, 44, 44);
 }
 
-.first{
+.first {
   display: flex;
   justify-content: stretch;
   max-width: 70vw;
@@ -139,50 +136,48 @@ nav button {
   gap: 20px;
   padding: 50px;
 }
-.secimage{
-  position:relative;
+.secimage {
+  position: relative;
   padding: 7px;
 }
-@media screen and (max-width:1300px) {
-  .first{
+@media screen and (max-width: 1300px) {
+  .first {
     flex-wrap: wrap;
   }
-  .second{
+  .second {
     flex-wrap: wrap-reverse;
   }
-  .third{
+  .third {
     flex-wrap: wrap;
   }
-  .fourth{
+  .fourth {
     flex-wrap: wrap-reverse;
   }
- 
 }
-.secimgage img{
+.secimgage img {
   width: 25vw;
- position: absolute; 
- }
-.secimage video{
+  position: absolute;
+}
+.secimage video {
   width: 468px;
   position: absolute;
   top: 105px;
   right: 1px;
   left: 90px;
-  
 }
 section.first > div {
   display: flex;
   flex-direction: column;
-  gap:10px
+  gap: 10px;
 }
-section.first > div :first-child{
+section.first > div :first-child {
   font-size: 40px;
   font-weight: bolder;
 }
-section.first > div :nth-child(2){
+section.first > div :nth-child(2) {
   font-size: 20px;
 }
-.second{
+.second {
   display: flex;
   justify-content: stretch;
   max-width: 70vw;
@@ -193,15 +188,15 @@ section.first > div :nth-child(2){
   padding-right: 200px;
   padding-bottom: 50px;
 }
-.secondimage{
-  position:relative;
+.secondimage {
+  position: relative;
   padding: 7px;
 }
-.secondimgage img{
+.secondimgage img {
   width: 25vw;
- position: absolute; 
- }
- .check{
+  position: absolute;
+}
+.check {
   display: flex;
   background-color: rgba(0, 0, 0, 0.977);
   width: 350px;
@@ -210,42 +205,41 @@ section.first > div :nth-child(2){
   top: 350px;
   left: 155px;
   border-radius: 10px;
-  gap:20px;
-  border:2px solid white;
- }
- .check img{
+  gap: 20px;
+  border: 2px solid white;
+}
+.check img {
   position: absolute;
-  width:60px;
+  width: 60px;
   height: 70px;
   top: 18px;
   left: 10px;
- }
-.inner{
+}
+.inner {
   position: absolute;
-  top:20px;
+  top: 20px;
   left: 85px;
   font-size: 10px;
   height: 50px;
- }
- .check >.gif{
+}
+.check > .gif {
   position: absolute;
-  left:270px;
- }
- section.second > div {
+  left: 270px;
+}
+section.second > div {
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
   flex-wrap: wrap;
 }
-section.second > div :first-child{
+section.second > div :first-child {
   font-size: 40px;
   font-weight: bolder;
-  
 }
-section.second> div :nth-child(2){
+section.second > div :nth-child(2) {
   font-size: 20px;
 }
-.third{
+.third {
   display: flex;
   justify-content: stretch;
   max-width: 70vw;
@@ -255,42 +249,42 @@ section.second> div :nth-child(2){
   gap: 1px;
   padding: 50px;
 }
-.thirdimage{
-  position:relative;
+.thirdimage {
+  position: relative;
   padding: 7px;
 }
-.thirdimgage img{
+.thirdimgage img {
   width: 25vw;
- position: absolute; 
- }
- .thirdimage video{
+  position: absolute;
+}
+.thirdimage video {
   width: 400px;
   position: absolute;
   top: 50px;
   right: 1px;
   left: 130px;
-  }
- section.third div {
+}
+section.third div {
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
 }
-section.third> div :nth-child(1){
+section.third > div :nth-child(1) {
   font-size: 40px;
   font-weight: bolder;
 }
-section.third> div :nth-child(2){
+section.third > div :nth-child(2) {
   font-size: 20px;
 }
-.fourth{
+.fourth {
   display: flex;
-  width:70vw;
-  justify-content:stretch;
+  width: 70vw;
+  justify-content: stretch;
   align-items: center;
- align-content: center;
+  align-content: center;
   color: #fff;
   gap: 10px;
-  padding-left:200px;
+  padding-left: 200px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -298,20 +292,20 @@ section.third> div :nth-child(2){
   position: relative;
   padding: 7px;
 }
-.fourthimage img{
+.fourthimage img {
   width: 30vw;
   position: relative;
 }
-section.fourth div{
+section.fourth div {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-section.fourth > div :nth-child(1){
+section.fourth > div :nth-child(1) {
   font-size: 40px;
   font-weight: bolder;
 }
-section.fourth > div :nth-child(2){
+section.fourth > div :nth-child(2) {
   font-size: 20px;
   font-weight: lighter;
 }
@@ -325,8 +319,8 @@ section.fourth > div :nth-child(2){
   padding: 30px;
   font-size: 48px;
 }
-.faqbox:hover{
-  background-color: #414141
+.faqbox:hover {
+  background-color: #414141;
 }
 .faqbox {
   transition: all 1s ease-out;
@@ -340,7 +334,7 @@ section.fourth > div :nth-child(2){
   padding-left: 4px;
   cursor: pointer;
 }
-.email{
+.email {
   padding: 7px 101px 8px 14px;
   font-size: 12px;
   border-radius: 4px;
@@ -349,31 +343,31 @@ section.fourth > div :nth-child(2){
   color: white;
   font-weight: 300;
 }
-footer{
+footer {
   color: white;
   max-width: 60vw;
   margin: auto;
   padding: 50px;
 }
-footer span{
-  padding:34px 0 ;
+footer span {
+  padding: 34px 0;
 }
-.footer{
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   color: white;
 }
-.footer-item{
+.footer-item {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-footer a{
+footer a {
   text-decoration: none;
   color: white;
 }
-@media screen and (max-width:1300px) {
-  .footer{
+@media screen and (max-width: 1300px) {
+  .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
